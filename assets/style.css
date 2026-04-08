@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff7f0, #ffe9f1);
+    color: #2d1f1a;
+}
+
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 20px 48px;
+}
+
+.header-card,
+.controls-card,
+.chart-card {
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.app-title {
+    margin: 0 0 8px;
+    font-size: 2.2rem;
+    color: #7a1f3d;
+}
+
+.app-subtitle {
+    margin: 0;
+    font-size: 1rem;
+    color: #5c4a44;
+    line-height: 1.6;
+}
+
+.radio-label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 14px;
+    color: #7a1f3d;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.radio-option {
+    background: #fff0f5;
+    border: 2px solid #f3bfd0;
+    border-radius: 999px;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #7a1f3d;
+    font-weight: 600;
+}
+
+.radio-option:hover {
+    background: #ffdbe8;
+    border-color: #e75480;
+}
+
+.radio-input {
+    margin-right: 8px;
+}
+
+.chart-card {
+    padding: 18px 18px 8px;
+}
