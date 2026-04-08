@@ -42,15 +42,19 @@ app.layout = html.Div(
     className="app-container",
     children=[
         html.Div(
-            className="header-card",
-            children=[
-                html.H1("Soul Foods Pink Morsel Sales Visualiser", className="app-title"),
-                html.P(
-                    "Explore Pink Morsel sales over time and compare regional performance before and after the January 15, 2021 price increase.",
-                    className="app-subtitle"
-                ),
-            ],
+    className="header-card",
+    children=[
+        html.H1(
+            "Soul Foods Pink Morsel Sales Visualiser",
+            className="app-title",
+            id="app-header"
         ),
+        html.P(
+            "Explore Pink Morsel sales over time and compare regional performance before and after the January 15, 2021 price increase.",
+            className="app-subtitle"
+        ),
+    ],
+),
         html.Div(
             className="controls-card",
             children=[
